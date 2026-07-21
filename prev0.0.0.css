@@ -2,7 +2,7 @@ h0{
     display:flex;
     justify-items:center;
     align-items:center;
-    font-size:300 px;
+    height:100 vh;
 }
 
 button{
@@ -10,5 +10,5 @@ button{
     justify-items:center;
     align-items:center;
     color: #AFAFAF;
-    font-size:30 px;
+    height:100 vh;
 }
