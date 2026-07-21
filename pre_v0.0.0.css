@@ -1,6 +1,5 @@
 .to_center{
     display:grid;
     place-items:center;
-    weight:50vw;
-    height:50vh;
+    height:20vh;
 }
