@@ -1,14 +1,12 @@
 h0{
     display:flex;
-    justify-items:center;
-    align-items:center;
+    place-items:center;
     height:100 vh;
 }
 
 button{
     text-align:center;
-    justify-items:center;
-    align-items:center;
+    place-items:center;
     color: #AFAFAF;
     height:100 vh;
 }
