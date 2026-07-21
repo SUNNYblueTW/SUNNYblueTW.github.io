@@ -1,12 +1,4 @@
 .to_center{
     display:grid;
     place-items:center;
-    height:20vh;
-}
-
-button{
-    background-color:#7F7F7F;
-    color:#AFAFAF;
-    display:grid;
-    place-items:center;
 }
