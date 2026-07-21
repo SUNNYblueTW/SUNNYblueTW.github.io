@@ -5,9 +5,10 @@
 }
 
 button{
-    display:grid;
-    place-items:center;
-    height:100vh;
     background-color:#7F7F7F;
     color:#AFAFAF;
+    display:grid;
+    place-items:center;
+    weight:20vw;
+    height:3vh;
 }
