@@ -1,7 +1,7 @@
 .to_center{
     display:grid;
     place-items:center;
-    height:50vh;
+    height:100vh;
 }
 
 button{
@@ -9,6 +9,4 @@ button{
     color:#AFAFAF;
     display:grid;
     place-items:center;
-    weight:50vw;
-    height:50vh;
 }
