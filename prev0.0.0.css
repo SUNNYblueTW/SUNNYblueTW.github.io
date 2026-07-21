@@ -1,12 +1,11 @@
 h0{
-    display:flex;
+    display:grid;
     place-items:center;
     height:100 vh;
 }
 
 button{
-    text-align:center;
-    place-items:center;
+    font-size:50 px;
+    background-color: #7F7F7F;
     color: #AFAFAF;
-    height:100 vh;
 }
