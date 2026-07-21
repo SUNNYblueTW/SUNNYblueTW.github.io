@@ -1,5 +1,14 @@
 .to_center{
     display:grid;
     place-items:center;
-    height:20vh;
+    height:100vh;
+}
+
+button{
+    background-color:#7F7F7F;
+    color:#AFAFAF;
+    display:grid;
+    place-items:center;
+    weight:20vw;
+    height:3vh;
 }
