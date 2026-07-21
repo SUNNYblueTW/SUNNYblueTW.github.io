@@ -1,5 +1,5 @@
 .to_center{
-    display:grid;
-    place-items:center;
-    padding:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
