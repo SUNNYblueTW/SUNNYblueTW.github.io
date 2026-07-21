@@ -6,7 +6,11 @@
 }
 
 button{
-    font-size:50 px;
-    background-color: #7F7F7F;
-    color: #AFAFAF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-size:50px;
+    background-color:#7F7F7F;
+    color:#AFAFAF;
 }
