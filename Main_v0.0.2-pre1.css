@@ -32,3 +32,17 @@
     left:50%;
     transform:translate(-50%,-50%);
 }
+
+.to_my_Youtube_channel_used{
+    background-color:#FFFFFF;
+    color:#000000;
+    font-size:var(--descript_size);
+}
+
+.to_my_Youtube_channel_used:hover{
+    background-color:#CFCFCF;
+}
+
+.to_my_Youtube_channel_used:active{
+    background-color:#7F7F7F;
+}
