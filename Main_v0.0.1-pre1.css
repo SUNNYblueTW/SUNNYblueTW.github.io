@@ -1,5 +1,6 @@
 :root{
     --bigger_size:72px;
+    --descript_size:24px;
     --smaller_size:36px;
 }
 
@@ -19,8 +20,14 @@
     transform:translate(-50%);
 }
 
+.top_used span{
+    font-size:var(--descript_size);
+    color:#7F7F7F;
+}
+
 .center_used{
     font-size:var(--smaller_size);
+    color:#FFFFFF;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
