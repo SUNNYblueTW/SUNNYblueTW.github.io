@@ -1,7 +1,7 @@
 .to_center{
     font-size:25px;
     width:500px;
-    height:100vh;
+    height:25vh;
     display:flex;
     flex-direction:column;
     flex-wrap:wrap;
