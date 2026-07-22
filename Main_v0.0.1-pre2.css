@@ -20,7 +20,7 @@
     transform:translate(-50%);
 }
 
-.top_used span{
+.topic_description{
     font-size:var(--descript_size);
     color:#7F7F7F;
 }
