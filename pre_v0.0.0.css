@@ -1,7 +1,7 @@
 .to_center{
     font-size:72px;
     max-width:700px;
-    position:absolute;
+    position:fixed;
     top:50%;
     left:50%;
     display:flex;
