@@ -16,6 +16,7 @@
 
 .top_used{
     font-size:var(--bigger_size);
+    font-family:"Noto Sans TC Black",sans-serif;
     left:50%;
     transform:translate(-50%);
 }
