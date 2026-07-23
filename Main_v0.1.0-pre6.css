@@ -50,6 +50,7 @@
 }
 
 .center_used{
+    font-family:var(--main_text_style);
     font-size:var(--smaller_size);
     color:#FFFFFF;
     top:50%;
