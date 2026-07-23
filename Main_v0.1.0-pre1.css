@@ -2,6 +2,8 @@
     --bigger_size:72px;
     --descript_size:24px;
     --smaller_size:36px;
+    --left_topic_size:24px;
+    --left_descript-size:16px;
 }
 
 .to_center{
@@ -26,6 +28,16 @@
 .topic_description{
     font-size:var(--descript_size);
     color:#7F7F7F;
+}
+
+.left_topic_used{
+    font-size:var(--left_topic_size);
+    color:#007FFF;
+}
+
+.left_descript_used{
+    font-size:var(--left_descript_size);
+    color:#DFDFDF;
 }
 
 .center_used{
