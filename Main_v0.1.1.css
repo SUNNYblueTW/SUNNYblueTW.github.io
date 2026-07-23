@@ -1,0 +1,69 @@
+:root{
+    --bigger_size:72px;
+    --description_size:24px;
+    --self_introduction_size:30px;
+    --left_topic_size:24px;
+    --left_description_size:16px;
+    --main_text_style:"Noto Sans TC Black",sans-serif;
+    --description_text_style:"Noto Sans TC",sans-serif;
+}
+
+.to_center{
+    position:fixed;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.all_used{
+    white-space:nowrap;
+}
+
+.topic_used{
+    font-family:var(--main_text_style);
+    font-size:var(--bigger_size);
+    left:50%;
+    transform:translate(-50%);
+}
+
+.topic_description_used{
+    font-family:var(--description_text_style);
+    font-size:var(--description_size);
+    color:#7F7F7F;
+}
+
+.left_zone_used{
+    
+}
+
+.self_introduction_used{
+    font-family:var(--main_text_style);
+    font-size:var(--self_introduction_size);
+    color:#7F00CF;
+}
+
+.left_topic_used{
+    font-family:var(--main_text_style);
+    font-size:var(--left_topic_size);
+    color:#007FFF;
+}
+
+.left_description_used{
+    font-family:var(--description_text_style);
+    font-size:var(--left_description_size);
+    color:#DFDFDF;
+}
+
+.to_my_Youtube_channel_used{
+    color:#00CF7F;
+    font-size:var(--description_size);
+}
+
+.to_my_Youtube_channel_used:hover{
+    color:#0FCFAF;
+}
+
+.to_my_Youtube_channel_used:active{
+    color:#00CF4F;
+}
