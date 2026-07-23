@@ -28,7 +28,7 @@
 }
 
 .topic_description_used{
-    font-family:var(--description_text__style);
+    font-family:var(--description_text_style);
     font-size:var(--description_size);
     color:#7F7F7F;
 }
@@ -44,7 +44,7 @@
 }
 
 .left_description_used{
-    font-family:var(--description_text__style);
+    font-family:var(--description_text_style);
     font-size:var(--left_description_size);
     color:#DFDFDF;
 }
