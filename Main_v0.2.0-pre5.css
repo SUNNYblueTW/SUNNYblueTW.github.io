@@ -21,10 +21,11 @@
 }
 
 .topic_block_used{
-    width:80vw
+    width:80vw;
     height:100px;
     background-color:#000000;
-    border-radius:20%;
+    border-radius:5%;
+    border:3px soild #FFFFFF;
 }
 
 .topic_used{
