@@ -4,6 +4,8 @@
     --smaller_size:36px;
     --left_topic_size:24px;
     --left_description_size:16px;
+    --main_text_style:"Noto Sans TC Black",sans-serif;
+    --description_text_style:"Noto Sans TC",sans-serif;
 }
 
 .to_center{
@@ -15,17 +17,18 @@
 }
 
 .all_used{
-    font-family:"Noto Sans TC Black",sans-serif;
     white-space:nowrap;
 }
 
 .topic_used{
+    font-family:var(--main_text_style);
     font-size:var(--bigger_size);
     left:50%;
     transform:translate(-50%);
 }
 
 .topic_description_used{
+    font-family:var(--description_text__style);
     font-size:var(--description_size);
     color:#7F7F7F;
 }
@@ -35,11 +38,13 @@
 }
 
 .left_topic_used{
+    font-family:var(--main_text_style);
     font-size:var(--left_topic_size);
     color:#007FFF;
 }
 
 .left_description_used{
+    font-family:var(--description_text__style);
     font-size:var(--left_description_size);
     color:#DFDFDF;
 }
