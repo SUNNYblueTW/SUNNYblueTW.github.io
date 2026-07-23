@@ -47,3 +47,16 @@
     font-size:var(--left_description_size);
     color:#DFDFDF;
 }
+
+.to_my_Youtube_channel_used{
+    background-color:#00CF7F;
+    font-size:var(--description_size);
+}
+
+.to_my_Youtube_channel_used:hover{
+    background-color:#0FCFAF;
+}
+
+.to_my_Youtube_channel_used:active{
+    background-color:#00CF4F;
+}
