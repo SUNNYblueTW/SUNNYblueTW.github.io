@@ -9,7 +9,6 @@
 }
 
 .to_center{
-    position:fixed;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -31,13 +30,14 @@
 }
 
 .topic_used{
+    position:absolute;
     font-family:var(--main_text_style);
     font-size:var(--bigger_size);
 }
 
 .topic_description_overall_used{
     position:absolute;
-    top:100px;
+    top:130px;
     left:50%;
 }
 
