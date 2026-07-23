@@ -3,7 +3,7 @@
     --descript_size:24px;
     --smaller_size:36px;
     --left_topic_size:24px;
-    --left_descript-size:16px;
+    --left_descript_size:16px;
 }
 
 .to_center{
@@ -19,15 +19,19 @@
     white-space:nowrap;
 }
 
-.top_used{
+.topic_used{
     font-size:var(--bigger_size);
     left:50%;
     transform:translate(-50%);
 }
 
-.topic_description{
+.topic_description_used{
     font-size:var(--descript_size);
     color:#7F7F7F;
+}
+
+.left_zone_used{
+    
 }
 
 .left_topic_used{
