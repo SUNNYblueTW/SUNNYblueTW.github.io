@@ -14,6 +14,8 @@
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    left:50%;
+    transform:translate(-50%);
 }
 
 .all_used{
@@ -31,8 +33,6 @@
 .topic_used{
     font-family:var(--main_text_style);
     font-size:var(--bigger_size);
-    left:50%;
-    transform:translate(-50%);
 }
 
 .topic_description_overall_used{
