@@ -20,6 +20,13 @@
     white-space:nowrap;
 }
 
+.topic_block_used{
+    width:80vw
+    height:100px;
+    background-color:#000000;
+    border-radius:20px;
+}
+
 .topic_used{
     font-family:var(--main_text_style);
     font-size:var(--bigger_size);
