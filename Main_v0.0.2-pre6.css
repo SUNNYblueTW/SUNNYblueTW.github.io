@@ -10,7 +10,6 @@
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    margin:auto;
 }
 
 .all_used{
@@ -19,7 +18,9 @@
 
 .top_used{
     font-size:var(--bigger_size);
+    left:50%;
     transform:translate(-50%);
+    white-space:nowrap;
 }
 
 .topic_description{
@@ -31,7 +32,8 @@
     font-size:var(--smaller_size);
     color:#FFFFFF;
     top:50%;
-    transform:translate(-50%);
+    left:50%;
+    transform:translate(-50%,-50%);
 }
 
 .to_my_Youtube_channel_used{
