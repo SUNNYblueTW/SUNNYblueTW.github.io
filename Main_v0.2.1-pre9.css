@@ -46,7 +46,7 @@
 .topic_description_overall_used{
     position:absolute;
     left:calc( calc( var(--left_block_width) + 60px ) + calc( var(--topic_block_width) / 2 ) );
-    top:var(--topic_block_height)+30px;
+    top:calc( var(--topic_block_height) + 30px );
 }
 
 .topic_description_used{
