@@ -28,6 +28,11 @@
     position:absolute;
 }
 
+.coordinate_position_reset_used{
+    left:0px;
+    top:0px;
+}
+
 .topic_block_used{
     left:calc( calc( var(--left_block_width) + 30px ) + calc( var(--topic_block_width) / 2 ) );
     width:var(--topic_block_width);
