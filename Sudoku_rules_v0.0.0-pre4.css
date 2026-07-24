@@ -20,10 +20,11 @@
 }
 
 .all_used{
-    position:absolute;
+    
 }
 
 .topic_block_used{
+    position:absolute;
     left:calc( var(--left_space) + calc( var(--topic_block_width) / 2 ) );
     width:var(--topic_block_width);
     height:var(--topic_block_height);
@@ -33,6 +34,7 @@
 }
 
 .topic_used{
+    position:absolute;
     left:calc( var(--left_space) + calc( var(--topic_block_width) / 2 ) );
     font-family:var(--main_text_style);
     font-size:var(--topic_size);
