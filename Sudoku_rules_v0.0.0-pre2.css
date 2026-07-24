@@ -1,0 +1,33 @@
+:root{
+    --topic_block_width:660px;
+    --topic_block_height:100px;
+
+    --left_space:190px;
+    
+    --topic_size:48px;
+    --general_text_size:20px;
+    
+    --main_text_style:"Noto Sans TC Black",sans-serif;
+    --description_text_style:"Noto Sans TC",sans-serif;
+}
+
+.to_center{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    transform:translate(-50%);
+}
+
+.all_used{
+    
+}
+
+.topic_block_used{
+    left:calc( var(--left_space) + calc( var(--topic_block_width) / 2 ) );
+    width:var(--topic_block_width);
+    height:var(--topic_block_height);
+    background-color:#000000;
+    border-radius:5%;
+    border:3px solid #FFFFFF;
+}
