@@ -25,17 +25,10 @@
 
 .all_used{
     white-space:nowrap;
-    position:absolute;
-}
-
-.coordinate_position_reset_used{
-    position:absolute;
-    left:0px;
-    top:0px;
 }
 
 .topic_block_used{
-    left:calc( calc( var(--left_block_width) + 30px ) + calc( var(--topic_block_width) / 2 ) );
+    left:calc( calc( var(--left_block_width) + 60px ) + calc( var(--topic_block_width) / 2 ) );
     width:var(--topic_block_width);
     height:var(--topic_block_height);
     background-color:#000000;
@@ -44,15 +37,15 @@
 }
 
 .topic_used{
-    position:relative;
-    left:calc( calc( var(--left_block_width) + 30px ) + calc( var(--topic_block_width) / 2 ) );
+    position:absolute;
+    left:calc( calc( var(--left_block_width) + 60px ) + calc( var(--topic_block_width) / 2 ) );
     font-family:var(--main_text_style);
     font-size:var(--topic_size);
 }
 
 .topic_description_overall_used{
-    position:relative;
-    left:calc( calc( var(--left_block_width) + 30px ) + calc( var(--topic_block_width) / 2 ) );
+    position:absolute;
+    left:calc( calc( var(--left_block_width) + 60px ) + calc( var(--topic_block_width) / 2 ) );
     top:var(--topic_block_height)+30px;
 }
 
@@ -63,7 +56,7 @@
 }
 
 .left_zone_used{
-    position:relative;
+    position:absolute;
     top:calc( var(--topic_block_height) + 30px );
     width:var(--left_block_width);
     height:var(--left_block_height);
