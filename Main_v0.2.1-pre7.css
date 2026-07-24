@@ -29,6 +29,7 @@
 }
 
 .coordinate_position_reset_used{
+    position:absolute;
     left:0px;
     top:0px;
 }
