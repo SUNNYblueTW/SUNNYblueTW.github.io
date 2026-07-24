@@ -25,7 +25,7 @@
 
 .topic_block_used{
     position:absolute;
-    left:calc( var(--left_space) + calc( var(--topic_block_width) / 2 ) );
+    left:50%;
     width:var(--topic_block_width);
     height:var(--topic_block_height);
     background-color:#000000;
@@ -35,7 +35,7 @@
 
 .topic_used{
     position:absolute;
-    left:calc( var(--left_space) + calc( var(--topic_block_width) / 2 ) );
+    left:50%;
     font-family:var(--main_text_style);
     font-size:var(--topic_size);
 }
