@@ -20,7 +20,7 @@
 }
 
 .all_used{
-    
+    position:absolute;
 }
 
 .topic_block_used{
@@ -30,4 +30,10 @@
     background-color:#000000;
     border-radius:5%;
     border:3px solid #FFFFFF;
+}
+
+.topic_used{
+    left:calc( var(--left_space) + calc( var(--topic_block_width) / 2 ) );
+    font-family:var(--main_text_style);
+    font-size:var(--topic_size);
 }
