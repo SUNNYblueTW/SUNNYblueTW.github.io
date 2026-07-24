@@ -29,6 +29,7 @@
 }
 
 .topic_block_used{
+    left:var(--left_block_width)+30px+var(--topic_block_width)/2;
     width:var(--topic_block_width);
     height:var(--topic_block_height);
     background-color:#000000;
