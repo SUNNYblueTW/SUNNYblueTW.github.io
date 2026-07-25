@@ -47,3 +47,7 @@
     color:#CFCFCF;
     top:calc( var(--topic_block_height) + 30px );
 }
+
+.bold{
+    font-weight:12px;
+}
