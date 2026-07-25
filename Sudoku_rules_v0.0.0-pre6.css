@@ -39,3 +39,10 @@
     font-family:var(--main_text_style);
     font-size:var(--topic_size);
 }
+
+.text_used{
+    position:absolute;
+    left:10%:
+    max_width:80%;
+    top:calc( var(--topic_block_height) + 30px );
+}
