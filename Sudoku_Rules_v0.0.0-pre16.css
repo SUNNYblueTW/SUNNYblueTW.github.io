@@ -12,6 +12,7 @@
 }
 
 .to_center{
+    text_align:center;
     transform:translate(-50%);
 }
 
