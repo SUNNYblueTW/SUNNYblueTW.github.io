@@ -42,7 +42,7 @@
 
 .text_used{
     position:absolute;
-    left:10%:
+    left:10%;
     max-width:80%;
     color:#CFCFCF;
     top:calc( var(--topic_block_height) + 30px );
