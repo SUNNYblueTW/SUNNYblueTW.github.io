@@ -12,7 +12,7 @@
 }
 
 .to_center{
-    text_align:center;
+    align-items:center;
     transform:translate(-50%);
 }
 
