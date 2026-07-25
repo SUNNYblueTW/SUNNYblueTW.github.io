@@ -12,10 +12,6 @@
 }
 
 .to_center{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
     transform:translate(-50%);
 }
 
