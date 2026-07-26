@@ -1,0 +1,96 @@
+:root{
+    --topic_block_width:660px;
+    --topic_block_height:100px;
+    
+    --topic_size:48px;
+    --topic_description_size:20px;
+    
+    --left_block_width:280px;
+    --left_block_height:300px;
+    --self_introduction_size:30px;
+    --left_topic_size:24px;
+    --left_description_size:16px;
+    
+    --main_text_style:"Noto Sans TC Black",sans-serif;
+    --description_text_style:"Noto Sans TC",sans-serif;
+}
+
+.to_center{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    transform:translate(-50%);
+}
+
+.all_used{
+    
+}
+
+.topic_block_used{
+    left:calc( calc( var(--left_block_width) + 60px ) + calc( var(--topic_block_width) / 2 ) );
+    width:var(--topic_block_width);
+    height:var(--topic_block_height);
+    background-color:#000000;
+    border-radius:5%;
+    border:3px solid #FFFFFF;
+}
+
+.topic_used{
+    position:absolute;
+    left:calc( calc( var(--left_block_width) + 60px ) + calc( var(--topic_block_width) / 2 ) );
+    font-family:var(--main_text_style);
+    font-size:var(--topic_size);
+}
+
+.topic_description_overall_used{
+    position:absolute;
+    left:calc( calc( var(--left_block_width) + 60px ) + calc( var(--topic_block_width) / 2 ) );
+    top:calc( var(--topic_block_height) + 30px );
+}
+
+.topic_description_used{
+    font-family:var(--description_text_style);
+    font-size:var(--topic_description_size);
+    color:#7F7F7F;
+}
+
+.left_zone_used{
+    position:absolute;
+    top:calc( var(--topic_block_height) + 30px );
+    width:var(--left_block_width);
+    height:var(--left_block_height);
+    background-color:#000000;
+    border:3px solid #FFFFFF;
+}
+
+.self_introduction_used{
+    font-family:var(--main_text_style);
+    font-size:var(--self_introduction_size);
+    color:#7F00CF;
+}
+
+.left_topic_used{
+    font-family:var(--main_text_style);
+    font-size:var(--left_topic_size);
+    color:#007FFF;
+}
+
+.left_description_used{
+    font-family:var(--description_text_style);
+    font-size:var(--left_description_size);
+    color:#DFDFDF;
+}
+
+.to_my_Youtube_channel_used{
+    color:#00CF7F;
+    font-size:var(--description_size);
+}
+
+.to_my_Youtube_channel_used:hover{
+    color:#0FCFAF;
+}
+
+.to_my_Youtube_channel_used:active{
+    color:#00CF4F;
+}
