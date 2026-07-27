@@ -82,6 +82,26 @@
     color:#DFDFDF;
 }
 
+.right_buttom_block_used{
+    position:fixed;
+    left:70%;
+    top:70%;
+    width:20%;
+    height:20%;
+    transform:translate(-100%,-100%);
+}
+
+.right_buttom_block_text_used{
+    opacity:0;
+    transition: opacity 0.3s;
+    visibility:hidden;
+}
+
+.right_buttom_block_used:hover .right_buttom_block_text_used{
+    opacity:1;
+    visibility:visible;
+}
+
 .to_my_Youtube_channel_used{
     color:#00CF7F;
     font-size:var(--description_size);
