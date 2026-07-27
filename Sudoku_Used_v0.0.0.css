@@ -47,3 +47,18 @@
     color:#CFCFCF;
     top:calc( var(--topic_block_height) + 30px );
 }
+
+.example_used={
+    position:fixed;
+    left:100%;
+    width: 20%;
+    height: 0;
+    padding-top: 20%;
+    padding-bottom: 0;
+    box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);
+    margin-top: 40%;
+    overflow: hidden;
+    border-radius: 8px;
+    transform:translate(-100%,-100%);"
+}
+
