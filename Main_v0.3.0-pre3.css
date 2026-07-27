@@ -88,7 +88,9 @@
     top:70%;
     width:20%;
     height:20%;
-    transform:translate(-100%,-100%);
+    background-color:#000000;
+    border-radius:5%;
+    border:3px solid #FFFFFF;
 }
 
 .right_buttom_block_text_used{
