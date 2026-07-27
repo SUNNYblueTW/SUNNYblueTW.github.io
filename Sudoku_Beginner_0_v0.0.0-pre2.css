@@ -42,13 +42,8 @@
 
 .text_used{
     position:absolute;
-    left:10%;
+    left:50%;
     max-width:80%;
     color:#CFCFCF;
     top:calc( var(--topic_block_height) + 30px );
-}
-
-.bold{
-    font-size:20px;
-    color:#FF7F00;
 }
