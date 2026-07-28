@@ -99,7 +99,7 @@
     visibility:hidden;
 }
 
-.announce_block_used:hover .announce_block_text_used{
+.announce_block_used:hover .announce_used{
     position:relative;
     top:120%;
     max-width:80%;
