@@ -101,7 +101,7 @@
     color:#FFFFFF;
 }
 
-.announce_block_used:hover .announce_used{
+.announce_block_used:onclick .announce_used{
     position:relative;
     top:120%;
     opacity:1;
