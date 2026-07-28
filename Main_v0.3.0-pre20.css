@@ -92,7 +92,7 @@
 
 .announce_used{
     position:relative;
-    left:0%;
+    left:50%;
     top:50%;
     white-space:nowrap;
     opacity:0;
