@@ -28,7 +28,8 @@
 }
 
 .topic_block_used{
-    left:calc( calc( var(--left_block_width) + 60px ) + calc( var(--topic_block_width) / 2 ) );
+    position:50%;
+    left:50%;
     width:var(--topic_block_width);
     height:var(--topic_block_height);
     background-color:#000000;
@@ -38,7 +39,7 @@
 
 .topic_used{
     position:absolute;
-    left:calc( calc( var(--left_block_width) + 60px ) + calc( var(--topic_block_width) / 2 ) );
+    left:50%;
     font-family:var(--main_text_style);
     font-size:var(--topic_size);
 }
@@ -57,7 +58,7 @@
 
 .left_zone_used{
     position:absolute;
-    top:calc( var(--topic_block_height) + 30px );
+    top:10%;
     width:var(--left_block_width);
     height:var(--left_block_height);
     background-color:#000000;
