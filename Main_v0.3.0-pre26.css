@@ -24,7 +24,7 @@
 }
 
 .all_used{
-    
+    white-space:nowrap;
 }
 
 .topic_block_used{
@@ -46,6 +46,7 @@
 
 .left_zone_used{
     position:absolute;
+    left:5%;
     top:25%;
     width:var(--left_block_width);
     height:var(--left_block_height);
