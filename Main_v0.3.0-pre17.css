@@ -93,6 +93,7 @@
     position:relative;
     left:0%;
     top:50%;
+    max-width:400%;
     opacity:0;
     transition: opacity 0.3s;
     visibility:hidden;
@@ -102,7 +103,6 @@
 .announce_block_used:hover .announce_used{
     position:relative;
     top:120%;
-    max-width:80%;
     opacity:1;
     visibility:visible;
     color:#FFFFFF;
