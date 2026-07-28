@@ -71,7 +71,7 @@
     color:#DFDFDF;
 }
 
-.right_buttom_block_used{
+.announce_block_used{
     position:fixed;
     left:50%;
     top:25%;
@@ -82,7 +82,14 @@
     border:3px solid #FFFFFF;
 }
 
-.right_buttom_block_text_used{
+.announce_block_text_used{
+    position:relative;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+
+.announce_used{
     position:relative;
     left:50%;
     top:50%;
@@ -92,7 +99,7 @@
     visibility:hidden;
 }
 
-.right_buttom_block_used:hover .right_buttom_block_text_used{
+.announce_block_used:hover .announce_block_text_used{
     position:relative;
     top:120%;
     max-width:80%;
