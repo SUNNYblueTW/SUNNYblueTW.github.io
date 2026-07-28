@@ -95,7 +95,6 @@
 
 .right_buttom_block_text_used{
     position:relative;
-    transform:translate(-50%,-50%);
     opacity:0;
     transition: opacity 0.3s;
     visibility:hidden;
