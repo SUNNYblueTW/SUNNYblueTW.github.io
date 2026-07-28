@@ -1,6 +1,6 @@
 :root{
-    --topic_block_width:660px;
-    --topic_block_height:100px;
+    --topic_block_width:60%;
+    --topic_block_height:12.5%;
     
     --topic_size:48px;
     --topic_description_size:20px;
