@@ -60,7 +60,7 @@
     color:#7F00CF;
 }
 
-.left_topic_used{
+menu left_topic_used{
     font-family:var(--main_text_style);
     font-size:var(--left_topic_size);
     color:#007FFF;
