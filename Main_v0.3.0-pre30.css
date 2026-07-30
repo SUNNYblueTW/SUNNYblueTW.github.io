@@ -60,12 +60,25 @@
     color:#7F00CF;
 }
 
-.menu left_topic_used{
+ul{
+    margin:0;
+    padding:0;
     list-style:none;
+}
+    
+.ul left_topic_used{
     display:flex;
     font-family:var(--main_text_style);
     font-size:var(--left_topic_size);
     color:#007FFF;
+}
+
+.ul left_topic_used li{
+    position:relative;
+    white-space:nowrap;
+    font-family:var(--main_text_style);
+    font-size:var(--left_topic_size);
+    color:#DFDFDF;
 }
 
 .left_description_used{
