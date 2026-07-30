@@ -73,7 +73,7 @@ ul{
     color:#007FFF;
 }
 
-.ul left_topic_used li{
+.ul left_topic_used a{
     position:relative;
     white-space:nowrap;
     font-family:var(--main_text_style);
