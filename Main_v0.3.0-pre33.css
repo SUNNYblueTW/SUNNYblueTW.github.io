@@ -66,14 +66,14 @@ ul{
     list-style:none;
 }
     
-.ul left_topic_used{
+ul.left_topic_used ul{
     display:flex;
     font-family:var(--main_text_style);
     font-size:var(--left_topic_size);
     color:#007FFF;
 }
 
-.ul left_topic_used:hover a{
+ul.ledt_topic_used ul li{
     position:relative;
     white-space:nowrap;
     font-family:var(--main_text_style);
