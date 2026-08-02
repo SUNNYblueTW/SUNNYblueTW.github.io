@@ -65,7 +65,6 @@
     white-space:nowrap;
     margin:0;
     padding:0;
-    list-style:none;
     font-family:var(--main_text_style);
     font-size:var(--left_topic_size);
     color:#007FFF;
