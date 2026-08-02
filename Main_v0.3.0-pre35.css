@@ -60,31 +60,27 @@
     color:#7F00CF;
 }
 
-ul{
+left_topic_used{
+    position:relative;
+    white-space:nowrap;
     margin:0;
     padding:0;
     list-style:none;
-}
-    
-ul.left_topic_used ul{
     display:flex;
     font-family:var(--main_text_style);
     font-size:var(--left_topic_size);
     color:#007FFF;
 }
 
-ul.left_topic_used ul li{
-    position:relative;
-    white-space:nowrap;
-    font-family:var(--main_text_style);
-    font-size:var(--left_topic_size);
-    color:#DFDFDF;
-}
-
 .left_description_used{
     font-family:var(--description_text_style);
     font-size:var(--left_description_size);
     color:#DFDFDF;
+    display:none;
+}
+
+left_topic_used:hover left_topic_used{
+    display:block;
 }
 
 .announce_block_used{
