@@ -79,7 +79,7 @@
     visibility:hidden;
 }
 
-.left_topic_used:hover .left_topic_used{
+.left_topic_used:hover .left_description_used{
     visibility:visible;
 }
 
