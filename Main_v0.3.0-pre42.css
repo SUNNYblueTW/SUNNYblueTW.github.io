@@ -62,7 +62,6 @@
 
 .left_topic_used{
     position:relative;
-    white-space:nowrap;
     margin:0;
     padding:0;
     font-family:var(--main_text_style);
