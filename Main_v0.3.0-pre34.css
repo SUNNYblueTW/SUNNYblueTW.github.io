@@ -73,7 +73,7 @@ ul.left_topic_used ul{
     color:#007FFF;
 }
 
-ul.ledt_topic_used ul li{
+ul.left_topic_used ul li{
     position:relative;
     white-space:nowrap;
     font-family:var(--main_text_style);
