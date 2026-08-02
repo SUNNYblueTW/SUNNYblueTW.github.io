@@ -79,7 +79,7 @@
     display:none;
 }
 
-.left_topic_used:hover left_topic_used{
+.left_topic_used:hover .left_topic_used{
     display:block;
 }
 
