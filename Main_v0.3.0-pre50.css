@@ -31,6 +31,7 @@
 }
 
 .topic_block_used{
+    position:relative;
     left:50%;
     width:var(--topic_block_width);
     height:var(--topic_block_height);
@@ -45,8 +46,7 @@
 }
 
 .content_zone_used{
-    position:absolute;
-    left:50%;
+    position:relative;
     top:25%;
     width:var(--content_block_width);
     height:var(--content_block_height);
@@ -85,7 +85,6 @@
 .announce_block_used{
     position:relative;
     top:25%;
-    transform:translate(-50%);
     width:5%;
     height:5%;
     background-color:#222222;
