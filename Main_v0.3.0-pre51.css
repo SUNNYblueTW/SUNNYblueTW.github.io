@@ -39,7 +39,7 @@
 }
 
 .topic_used{
-    position:absolute;
+    position:relative;
     left:50%;
     font-family:var(--main_text_style);
     font-size:var(--topic_size);
@@ -54,6 +54,8 @@
 }
 
 .self_introduction_used{
+    position:relative;
+    top:25%;
     font-family:var(--main_text_style);
     font-size:var(--self_introduction_size);
     color:#7F00CF;
