@@ -55,7 +55,6 @@
 
 .self_introduction_used{
     position:relative;
-    top:25%;
     font-family:var(--main_text_style);
     font-size:var(--self_introduction_size);
     color:#7F00CF;
