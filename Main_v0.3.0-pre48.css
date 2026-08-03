@@ -24,6 +24,7 @@
 }
 
 .all_used{
+    position:absolute;
     display:flex;
     flex-wrap:wrap;
     white-space:nowrap;
