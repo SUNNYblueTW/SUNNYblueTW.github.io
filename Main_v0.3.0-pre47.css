@@ -1,11 +1,11 @@
 :root{
-    --topic_block_width:660px;
+    --topic_block_width:100%;
     --topic_block_height:100px;
     
     --topic_size:48px;
     --topic_description_size:20px;
     
-    --content_block_width:280px;
+    --content_block_width:70%;
     --content_block_height:300px;
     --self_introduction_size:30px;
     --content_topic_size:24px;
@@ -33,9 +33,7 @@
     left:50%;
     width:var(--topic_block_width);
     height:var(--topic_block_height);
-    background-color:#000000;
-    border-radius:5%;
-    border:3px solid #FFFFFF;
+    background-color:#222222;
 }
 
 .topic_used{
@@ -52,7 +50,6 @@
     width:var(--content_block_width);
     height:var(--content_block_height);
     background-color:#000000;
-    border:3px solid #FFFFFF;
 }
 
 .self_introduction_used{
@@ -86,12 +83,12 @@
 
 .announce_block_used{
     position:fixed;
-    left:50%;
+    left:80%;
     top:25%;
     transform:translate(-50%);
     width:5%;
     height:5%;
-    background-color:#000000;
+    background-color:#222222;
     border-radius:5%;
     border:3px solid #FFFFFF;
 }
