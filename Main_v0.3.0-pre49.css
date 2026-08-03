@@ -83,8 +83,7 @@
 }
 
 .announce_block_used{
-    position:fixed;
-    left:80%;
+    position:relative;
     top:25%;
     transform:translate(-50%);
     width:5%;
@@ -104,8 +103,6 @@
 
 .announce_used{
     position:relative;
-    left:50%;
-    top:50%;
     white-space:nowrap;
     opacity:0;
     transition:opacity 0.3s;
