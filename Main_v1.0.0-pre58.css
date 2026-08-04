@@ -3,12 +3,15 @@
     
     --topic_block_width:100%;
     --topic_block_height:100px;
+    --topic_block_margin:20px;
     
     --topic_size:48px;
     --topic_description_size:20px;
     
-    --content_block_width:70%;
-    --content_block_height:300px;
+    --content_block_width:30%;
+    --content_block_height:50%;
+    --content_block_margin:20px;
+    
     --self_introduction_size:30px;
     --content_topic_size:24px;
     --content_description_size:16px;
@@ -37,6 +40,7 @@
     left:50%;
     width:var(--topic_block_width);
     height:var(--topic_block_height);
+    margin:var(--topic_block_margin) 0;
     border-radius:var(--overall_block_radius);
     background-color:#222222;
 }
@@ -53,6 +57,7 @@
     top:25%;
     width:var(--content_block_width);
     height:var(--content_block_height);
+    margin:var(--content_block_margin);
     border-radius:var(--overall_block_radius);
     background-color:#222222;
 }
