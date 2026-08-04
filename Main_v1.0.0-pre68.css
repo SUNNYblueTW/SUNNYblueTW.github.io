@@ -13,7 +13,7 @@
 
     --subcontent_block_width:80%;
     --subcontent_block_height:1.6em;
-    --subcontent_block_margin:10px;
+    --subcontent_block_margin:50px;
     --self_introduction_size:30px;
     --content_topic_size:24px;
     --content_description_size:16px;
@@ -69,7 +69,7 @@
     height:var(--subcontent_block_height);
     border-radius:var(--overall_block_radius);
     background-color:#333333;
-    margin:var(--subcontent_block_margin);
+    margin:15 0 var(--subcontent_block_margin) 20;
 }
 
 .self_introduction_used{
