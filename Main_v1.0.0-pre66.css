@@ -96,7 +96,7 @@
     color:#DFDFDF;
 }
 
-.subcontent_block_used_1 li:hover > .content_description_used{
+.subcontent_block_used_1:hover > .content_description_used{
     display:block;
 }
 
