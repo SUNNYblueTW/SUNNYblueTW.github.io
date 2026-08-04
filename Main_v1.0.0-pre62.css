@@ -60,7 +60,7 @@
     background-color:#222222;
 }
 
-.sub_content_block_used{
+.sub_content_block_used_0, .sub_content_block_used_1{
     position:relative;
     height:var(--subcontent_block_height);
     border-radius:var(--overall_block_radius);
@@ -92,7 +92,7 @@
     color:#DFDFDF;
 }
 
-.content_topic_used li:hover > .content_description_used{
+.subcontent_block_used_1 li:hover > .content_description_used{
     display:block;
 }
 
