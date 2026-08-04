@@ -1,4 +1,6 @@
 :root{
+    --overall_block_radius:20px;
+    
     --topic_block_width:100%;
     --topic_block_height:100px;
     
@@ -35,6 +37,7 @@
     left:50%;
     width:var(--topic_block_width);
     height:var(--topic_block_height);
+    border-radius:var(--overall_block_radius);
     background-color:#222222;
 }
 
@@ -45,11 +48,12 @@
     font-size:var(--topic_size);
 }
 
-.content_zone_used{
+.content_block_used{
     position:relative;
     top:25%;
     width:var(--content_block_width);
     height:var(--content_block_height);
+    border-radius:var(--overall_block_radius);
     background-color:#222222;
 }
 
@@ -87,7 +91,7 @@
     width:12.5%;
     height:12.5%;
     background-color:#222222;
-    border-radius:5%;
+    border-radius:var(--overall_block_radius);
     border:3px solid #FFFFFF;
 }
 
