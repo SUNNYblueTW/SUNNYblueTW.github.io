@@ -96,7 +96,11 @@
     color:#DFDFDF;
 }
 
-.subcontent_block_used_1:hover > .content_description_used{
+.subcontent_block_used_0:hover > li > .content_description_used{
+    display:block;
+}
+
+.subcontent_block_used_1:hover > li > .content_description_used{
     display:block;
 }
 
