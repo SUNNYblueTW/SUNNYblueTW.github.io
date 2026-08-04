@@ -61,7 +61,7 @@
     background-color:#222222;
 }
 
-.sub_content_block_used_0, .sub_content_block_used_1{
+.subcontent_block_used_0, .subcontent_block_used_1{
     position:relative;
     width:var(--subcontent_block_width);
     height:var(--subcontent_block_height);
