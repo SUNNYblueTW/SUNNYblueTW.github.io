@@ -60,7 +60,7 @@
     background-color:#222222;
 }
 
-sub_content_block_used{
+.sub_content_block_used{
     position:relative;
     height:var(--subcontent_block_height);
     border-radius:var(--overall_block_radius);
