@@ -10,6 +10,7 @@
     --content_block_width:70%;
     --content_block_height:300px;
 
+    --subcontent_block_width:100%;
     --subcontent_block_height:1.6em;
     --subcontent_block_margin:10px;
     --self_introduction_size:30px;
@@ -62,6 +63,7 @@
 
 .sub_content_block_used_0, .sub_content_block_used_1{
     position:relative;
+    width:var(--subcontent_block_width);
     height:var(--subcontent_block_height);
     border-radius:var(--overall_block_radius);
     background-color:#333333;
