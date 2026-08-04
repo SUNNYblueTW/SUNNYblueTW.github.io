@@ -50,7 +50,7 @@
     top:25%;
     width:var(--content_block_width);
     height:var(--content_block_height);
-    background-color:#000000;
+    background-color:#222222;
 }
 
 .self_introduction_used{
@@ -72,6 +72,7 @@
 .content_description_used{
     font-family:var(--description_text_style);
     font-size:var(--content_description_size);
+    background-color:#222222;
     color:#DFDFDF;
     opacity:0;
     transition:opacity 0.3s;
