@@ -15,7 +15,10 @@
     --self_introduction_size:30px;
     --content_topic_size:24px;
     --content_description_size:16px;
-    
+
+    --announce_block_width:50px;
+    --announce_block_height:36px;
+
     --main_text_style:"Noto Sans TC Black",sans-serif;
     --description_text_style:"Noto Sans TC",sans-serif;
 }
@@ -57,7 +60,7 @@
     top:25%;
     width:var(--content_block_width);
     height:var(--content_block_height);
-    margin:var(--content_block_margin);
+    margin:var(--content_block_margin) 0;
     border-radius:var(--overall_block_radius);
     background-color:#222222;
 }
@@ -92,9 +95,8 @@
 
 .announce_block_used{
     position:relative;
-    top:25%;
-    width:12.5%;
-    height:12.5%;
+    width:var(--announce_block_width);
+    height:var(--announce_block_height);
     background-color:#222222;
     border-radius:var(--overall_block_radius);
     border:3px solid #FFFFFF;
