@@ -70,18 +70,15 @@
 }
 
 .content_description_used{
+    display:none;
     font-family:var(--description_text_style);
     font-size:var(--content_description_size);
     background-color:#222222;
     color:#DFDFDF;
-    opacity:0;
-    transition:opacity 0.3s;
-    visibility:hidden;
 }
 
-.content_topic_used:hover .content_description_used{
-    opacity:1;
-    visibility:visible;
+.content_topic_used li:hover > .content_description_used{
+    display:block;
 }
 
 .announce_block_used{
