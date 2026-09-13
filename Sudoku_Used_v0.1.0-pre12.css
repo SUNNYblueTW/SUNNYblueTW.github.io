@@ -1,8 +1,8 @@
 :root{
-    --overall_block_radius:20px;
+    --overall_block_radius:5%;
     
     --topic_block_width:100%;
-    --topic_block_height:30%;
+    --topic_block_height:15%;
     
     --topic_size:48px;
     --general_text_size:20px;
@@ -66,7 +66,7 @@
     padding-top:20%;
     padding-bottom:0;
     box-shadow:0 2px 8px 0 rgba(63,69,81,0.16);
-    margin-top:60%;
+    margin-top:50%;
     overflow:hidden;
     border-radius:8px;
     transform:translate(-100%,-100%);
