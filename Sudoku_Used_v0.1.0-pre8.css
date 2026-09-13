@@ -2,7 +2,7 @@
     --overall_block_radius:20px;
     
     --topic_block_width:100%;
-    --topic_block_height:100px;
+    --topic_block_height:10%;
     
     --topic_size:48px;
     --general_text_size:20px;
@@ -51,7 +51,7 @@
     position:relative;
     max-width:80%;
     color:#CFCFCF;
-    padding:calc( var(--topic_block_height) + 30px) 10%;
+    padding:calc(var(--topic_block_height) + 30px) 10%;
 }
 
 .example_used{
