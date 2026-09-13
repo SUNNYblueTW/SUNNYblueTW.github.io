@@ -26,9 +26,7 @@
     left:50%;
     width:var(--topic_block_width);
     height:var(--topic_block_height);
-    background-color:#000000;
-    border-radius:5%;
-    border:3px solid #FFFFFF;
+    background-color:#222222;
 }
 
 .topic_used{
