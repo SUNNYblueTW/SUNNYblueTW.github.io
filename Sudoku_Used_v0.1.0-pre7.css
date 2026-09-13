@@ -56,8 +56,9 @@
 
 .example_used{
     position:fixed;
+    left:100%;
     width:20%;
-    height:0;
+    height:20%;
     padding-top:20%;
     padding-bottom:0;
     box-shadow:0 2px 8px 0 rgba(63,69,81,0.16);
