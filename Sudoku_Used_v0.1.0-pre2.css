@@ -38,6 +38,13 @@
     font-size:var(--topic_size);
 }
 
+.text_block_used{
+    position:relative;
+    top:(--topic_block_height);
+    max_width:100%;
+    color:#222222;
+}
+
 .text_used{
     position:relative;
     left:50%;
