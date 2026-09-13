@@ -2,7 +2,7 @@
     --overall_block_radius:20px;
     
     --topic_block_width:100%;
-    --topic_block_height:15%;
+    --topic_block_height:100px;
     
     --topic_size:48px;
     --general_text_size:20px;
@@ -63,7 +63,7 @@
     left:100%;
     width:20%;
     height:0;
-    padding-top:0;
+    padding-top:20%;
     padding-bottom:0;
     box-shadow:0 2px 8px 0 rgba(63,69,81,0.16);
     margin-top:40%;
