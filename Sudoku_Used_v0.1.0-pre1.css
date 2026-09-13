@@ -1,8 +1,6 @@
 :root{
-    --topic_block_width:660px;
+    --topic_block_width:100%;
     --topic_block_height:100px;
-
-    --left_space:190px;
     
     --topic_size:48px;
     --general_text_size:20px;
@@ -20,11 +18,11 @@
 }
 
 .all_used{
-    
+    position:absolute;
 }
 
 .topic_block_used{
-    position:absolute;
+    position:relative;
     left:50%;
     width:var(--topic_block_width);
     height:var(--topic_block_height);
@@ -34,18 +32,18 @@
 }
 
 .topic_used{
-    position:absolute;
+    position:relative;
     left:50%;
     font-family:var(--main_text_style);
     font-size:var(--topic_size);
 }
 
 .text_used{
-    position:absolute;
+    position:relative;
     left:50%;
     max-width:80%;
     color:#CFCFCF;
-    top:calc( var(--topic_block_height) + 30px );
+    top:calc( var(--topic_block_height) + 30px);
 }
 
 .example_used{
