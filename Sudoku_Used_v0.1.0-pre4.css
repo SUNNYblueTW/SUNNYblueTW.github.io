@@ -45,10 +45,9 @@
 
 .text_used{
     position:relative;
-    left:50%;
     max-width:80%;
     color:#CFCFCF;
-    top:calc( var(--topic_block_height) + 30px);
+    padding:calc( var(--topic_block_height) + 30px) 10%;
 }
 
 .example_used{
