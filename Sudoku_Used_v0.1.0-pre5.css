@@ -1,4 +1,6 @@
 :root{
+    --overall_block_radius:20px;
+    
     --topic_block_width:100%;
     --topic_block_height:100px;
     
@@ -27,6 +29,7 @@
     width:var(--topic_block_width);
     height:var(--topic_block_height);
     background-color:#222222;
+    boader-radius:(--overall_block_radius);
 }
 
 .topic_used{
@@ -40,7 +43,8 @@
     position:relative;
     top:(--topic_block_height);
     max_width:100%;
-    color:#222222;
+    background-color:#222222;
+    border-radius:(--overall_block_radius);
 }
 
 .text_used{
